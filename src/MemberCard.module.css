@@ -1,0 +1,64 @@
+.memberObject {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 380px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #060922;
+    border: 0;
+}
+
+.memberImage {
+    width: 186px;
+    height: 186px;
+    border-radius: 186px;
+    padding: 14px;
+}
+
+.memberText {
+    text-align: center;
+    align-items: start;
+    justify-content: start;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+}
+
+.memberName {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+}
+
+.memberJob {
+    color: #FFF;
+    padding: 8px 0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+}
+
+.memberDescription {
+    color: #FFF;
+    padding: 12px 0;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 90%;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
